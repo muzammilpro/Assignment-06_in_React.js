@@ -1,4 +1,5 @@
-import React from 'react'
+import Img1 from '../../Images/logo.png'
+import Img2 from '../../Images/logo text.png'
 
 export default function NavBar() {
   return (
@@ -7,8 +8,8 @@ export default function NavBar() {
             <div className="row">
                 <div className="col-3 text-center">
                     <div>
-                        <img src="./assets/logo.png" alt="logo" className="img-fluid logo " />
-                        <img src="./assets/logo text.png" alt="foodwaGon" className=" foodwaGon img-fluid w-75" />
+                        <img src={Img1} alt="logo" className="img-fluid logo " />
+                        <img src={Img2} alt="foodwaGon" className=" foodwaGon img-fluid w-75" />
                     </div>
                 </div>
 
