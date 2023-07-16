@@ -20,7 +20,7 @@ export default function NavBar() {
                 </div>
 
                 <div className="col-3 mt-1 text-center">
-                    <i className="bi bi-search icon-location mt-2 search"></i> <strong className="search">search Food </strong>
+                     <a href=""><i className="bi bi-search icon-location mt-2 search"></i></a> <strong className="search">search Food </strong>
                     <button className="btn  button-login ms-2"><i className="bi bi-person-fill icon-location"></i>
                         Login </button>
                 </div>
