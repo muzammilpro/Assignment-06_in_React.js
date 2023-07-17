@@ -10,14 +10,14 @@ export default function FeaturedRestaurantsCards(props) {
                         <div className="d-flex" style={{ marginLeft: "-10px" }}>
                             <img src={props.scr2} className="img-fluid w-25 me-3" alt="" />
                             <span className="fw-bold">
-                                Food World
+                                {props.title}
                                 <br />
                                 <p className="world">
-                                    <i className="bi bi-star-fill"></i>&nbsp; 46
+                                    <i className="bi bi-star-fill"></i>&nbsp; {props.rating}
                                 </p>
                             </span>
                         </div>
-                        <button className="btn btn-delivery mt-3 fw-bold w-75">Open tomorrow</button>
+                        <button className="btn btn-delivery mt-3 fw-bold w-75">{props.time}</button>
                     </div>
                 </div>
             </div>
