@@ -1,14 +1,14 @@
 import React from 'react';
 
-export default function FeaturedRestaurantsCards() {
+export default function FeaturedRestaurantsCards(props) {
     return (
         <div className="col-lg-3 col-md-6 col-sm-12 mt-5">
             <div className="card border border-0 text-start mx-auto" style={{ width: "16rem" }}>
-                <img src="./assets/feature1.png" className="card-img-end img-fluid mt-4 rounded-4" alt="image" />
+                <img src={props.scr1} className="card-img-end img-fluid mt-4 rounded-4" alt="image" />
                 <div className="card-body">
                     <div className="row">
                         <div className="d-flex" style={{ marginLeft: "-10px" }}>
-                            <img src="./assets/featurelogo1.png" className="img-fluid w-25 me-3" alt="" />
+                            <img src={props.scr2} className="img-fluid w-25 me-3" alt="" />
                             <span className="fw-bold">
                                 Food World
                                 <br />
