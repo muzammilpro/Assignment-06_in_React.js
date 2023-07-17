@@ -3,6 +3,7 @@ import MainHeader from '../Components/MainHeader/MainHeader'
 import MainHeaderCardSection from '../Components/MainHeaderCardSection/MainHeaderCard'
 import HowDoes from '../Components/HowDoes/HowDoes'
 import PopularItems from '../Components/PopularItems/PopularItems'
+import FeaturedRestaurants from '../Components/FeaturedRestaurants/FeaturedRestaurants'
 
 export default function HomePage() {
     return (
@@ -12,6 +13,7 @@ export default function HomePage() {
             < MainHeaderCardSection />
             <HowDoes />
             <PopularItems />
+            <FeaturedRestaurants />
 
         </div>
     )
