@@ -4,6 +4,7 @@ import MainHeaderCardSection from '../Components/MainHeaderCardSection/MainHeade
 import HowDoes from '../Components/HowDoes/HowDoes'
 import PopularItems from '../Components/PopularItems/PopularItems'
 import FeaturedRestaurants from '../Components/FeaturedRestaurants/FeaturedRestaurants'
+import SearchFood from '../Components/SearchFood/SearchFood'
 
 export default function HomePage() {
     return (
@@ -14,6 +15,7 @@ export default function HomePage() {
             <HowDoes />
             <PopularItems />
             <FeaturedRestaurants />
+            <SearchFood />
 
         </div>
     )
