@@ -1,4 +1,8 @@
 import HowDoesCard from '../HowDoesCard/HowDoesCard'
+import Img1 from '../../Images/section3-1st.png'
+import Img2 from '../../Images/section3rd-2.png'
+import Img3 from '../../Images/section3-3rd.png'
+import Img4 from '../../Images/section3- 4th.png'
 
 export default function HowDoes() {
     return (
@@ -13,22 +17,22 @@ export default function HowDoes() {
 
                             <div className="col-lg-3 col-md-6 col-sm-12 mt-3">
                                 <div className="card mx-auto bg-transparent border border-0 text-center" style={{ width: "18rem" }} >
-                                <HowDoesCard />
+                                <HowDoesCard  scr={Img1}/>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-12 mt-3">
                                 <div className="card mx-auto bg-transparent border border-0 text-center" style={{ width: "18rem" }} >
-                                <HowDoesCard />
+                                <HowDoesCard scr={Img2} />
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-12 mt-3">
                                 <div className="card mx-auto bg-transparent border border-0 text-center" style={{ width: "18rem" }} >
-                                <HowDoesCard />
+                                <HowDoesCard  scr={Img3}/>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-12 mt-3">
                                 <div className="card mx-auto bg-transparent border border-0 text-center" style={{ width: "18rem" }} >
-                                <HowDoesCard />
+                                <HowDoesCard scr={Img4} />
                                 </div>
                             </div>
 
