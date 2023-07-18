@@ -6,6 +6,7 @@ import PopularItems from '../Components/PopularItems/PopularItems'
 import FeaturedRestaurants from '../Components/FeaturedRestaurants/FeaturedRestaurants'
 import SearchFood from '../Components/SearchFood/SearchFood'
 import App from '../Components/App/App'
+import Footer from '../Components/Footer/Footer'
 
 export default function HomePage() {
     return (
@@ -18,6 +19,10 @@ export default function HomePage() {
             <FeaturedRestaurants />
             <SearchFood />
             < App />
+
+
+
+            <Footer />
 
         </div>
     )
